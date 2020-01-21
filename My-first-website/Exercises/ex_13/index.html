@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Created User</title>
+</head>
+<h1 style="text-align: center;">Create User</h1>
+<hr>
+<body style="background-color: beige;">
+    <form action="/action_page.php" method="GET" enctype="multipart/form-data">
+    <input type="Username" name="UserName" placeholder="Your names comes here">
+    <select name="Options">
+<option value="">Please select a country</option>
+<option value="deadpool">Deadpool</option>
+<option value="batman_vs_superman">Batman v Superman </option>
+<option value="civil_war">Captain America: Civil War</option>
+<option value="doctor_strange">Doctor Strange</option>
+<option value="suicide_squad">Suicide Squad</option>
+ <option value="apocalypse">X-Men: Apocalypse</option>
+ <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option> 
+   <option value="justice_league">Justice League  </option>
+    <option value="logan">Logan</option>
+    <option value="homecoming">Spider-Man: Homecoming</option>
+    <option value="wonder_woman" selected="wonder_woman">Wonder Woman</option>
+     <option value="thor_ragnarok">Thor: Ragnarok</option>
+  <option value="black_panther">Black Panther</option>
+</select>
+  <br>
+     <div>    
+  <textarea name="UserFeedback" id="UserName" cols="40" rows="30"></textarea>
+<label for="input"></label>
+  <input type="file" id="myfile" name="filename">
+<input type="submit">
+<br>
+<button type="reset">Clear Selection</button>
+<button type="submit"> Add New User</button>
+</div>
+
+    </form>
+    
+</body>
+</html>
