@@ -7,8 +7,8 @@ Use a switch statement to check for the selected year value `` 2017 - Pittsburgh
   2013 - Chicago Blackhawks 2012 - Los Angeles Kings 2011 - Boston Bruins 2010 - Chicago Blackhawks
    2009 - Pittsburgh Penguinas 2008 - Detroit Red Wings 2007 - Anaheim Ducks 2006 - Carolina Hurricanes
 */
-let year = 2006;
-let champion = 2015;
+let year = 2012;
+let champion = null;
  switch (year){
      case 2017:
      champion = "Pittsburgh Penguins";
@@ -48,6 +48,7 @@ let champion = 2015;
                                                                                                             break;   
                                                                                                                     default:
                                                                                                                         year = "Sorry, please try a different year";
+                                                                                                                        champion = 'select the correct year'
 
  }
-console.log (`${champion} was the winner of NHL championship for the ${year}.`)
+console.log (`${champion}was the winner of NHL championship for the ${year}.`)
