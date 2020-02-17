@@ -23,10 +23,8 @@ revert(`difficult`);
     console.log (reverseArray)
     var joinArray = reverseArray.join("")
     console.log (joinArray) */   
-const a = "hello";    
+/*const a = "hello";    
     function reverseString(str) {
         console.log(str.split("").reverse().join(""));
     }
-    reverseString(a);
-    
-    
+    reverseString(a);*/
