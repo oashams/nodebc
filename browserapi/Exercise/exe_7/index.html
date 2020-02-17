@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        let inputNumber = parseInt(window.prompt ());
+        let number= window.confirm (`This program adds all the numbers you input`);
+        let result = 0;
+        if (number==true){
+                let inputNumber1= parseInt (window.prompt (`Enter Number`));
+                result = inputNumber+inputNumber1;
+        } else { 
+            console.log (`Enter a valid number`);
+        }
+        console.log (`Result so far is ${result}`);
+    </script>
+</head>
+<body>
+<p>Create a basic HTML document
+    <br> Create a script tag on the document head element
+    <br>Show the user the following message using the alert method:
+    <br>This program adds all the numbers you input
+    <br> While the user confirms that he wants to input another number execute the following acctions
+    <br>Using the prompt method ask the user to input a number
+    <br>Add the number
+    <br>Show the partial result with the following message:
+    <br>The result so far is: %result%</p>    
+</body>
+</html>
