@@ -1,7 +1,4 @@
-var firstname = 'Ciro';
-var lastname = 'Rodriguez';
-var age = 20;
-
-console.log(firstname);
-console.log(lastname);
-console.log(age);
+const calc = require('./calculator');
+let sumResult = calc.sum(2, 3,4);
+let multiplyResult =calc.multiply(5,5);
+console.log(`The result is: ${sumResult} & Multiply ${multiplyResult}`);
