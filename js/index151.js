@@ -10,6 +10,7 @@ Seack: I'm Groot!!
 const groot = {
     greet:'I\'m Groot!!', 
     speak:'I\'m Groot!!'
+
 }
-console.log (groot.greet);
+console.log(groot.greet);
 console.log (groot.speak);
